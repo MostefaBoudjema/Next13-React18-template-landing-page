@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import infos from '../data/infos';
 function Footer() {
   return (
     <footer>
@@ -20,7 +20,7 @@ function Footer() {
                   </svg>
                 </Link>
               </div>
-              <div className="text-gray-400">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</div>
+              <div className="text-gray-400">{infos.footer_text}</div>
             </div>
 
             {/* 2nd, 3rd and 4th blocks */}
@@ -28,60 +28,60 @@ function Footer() {
 
               {/* 2nd block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Products</h6>
+                <h6 className="text-gray-200 font-medium mb-1">{infos.footer_Products}</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Web Studio</Link>
+                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">{infos.footer_web_studio}</Link>
                   </li>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">DynamicBox Flex</Link>
+                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">{infos.footer_dynamicBox_flex}</Link>
                   </li>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Programming Forms</Link>
+                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">{infos.footer_programming_forms}</Link>
                   </li>
                 </ul>
               </div>
 
               {/* 3rd block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
+                <h6 className="text-gray-200 font-medium mb-1">{infos.footer_resources}</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
+                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">{infos.footer_nostrud_exercitation}</Link>
                   </li>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Visual mockups</Link>
+                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">{infos.footer_visual_mockups}</Link>
                   </li>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
+                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">{infos.footer_nostrud_exercitation}</Link>
                   </li>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Visual mockups</Link>
+                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">{infos.footer_visual_mockups}</Link>
                   </li>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Nostrud exercitation</Link>
+                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">{infos.footer_nostrud_exercitation}</Link>
                   </li>
                 </ul>
               </div>
 
               {/* 4th block */}
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Company</h6>
+                <h6 className="text-gray-200 font-medium mb-1">{infos.footer_company}</h6>
                 <ul>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
+                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">{infos.footer_consectetur_adipiscing}</Link>
                   </li>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Labore et dolore</Link>
+                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">{infos.footer_labore_et_dolore}</Link>
                   </li>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
+                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">{infos.footer_consectetur_adipiscing}</Link>
                   </li>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Labore et dolore</Link>
+                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">{infos.footer_labore_et_dolore}</Link>
                   </li>
                   <li className="mb-1">
-                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Consectetur adipiscing</Link>
+                    <Link to="#" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">{infos.footer_consectetur_adipiscing}</Link>
                   </li>
                 </ul>
               </div>
@@ -135,7 +135,7 @@ function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; Cruip.com. All rights reserved.</div>
+            <div className="text-gray-400 text-sm mr-4">&copy;{infos.footer_copy}</div>
 
           </div>
 

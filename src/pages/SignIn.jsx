@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import Header from '../partials/Header';
-import PageIllustration from '../partials/PageIllustration';
-import Banner from '../partials/Banner';
+import Header from '../components/Header';
+import PageIllustration from '../components/PageIllustration';
+//import Banner from '../components/Banner';
 
 function SignIn() {
   return (

@@ -54,7 +54,7 @@ const infos=
 			title: 'Keep projects on schedule',
 			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 			img: 'src/images/features-03-image-01.png',
-			img_left:true,
+			img_left: true,
 			points: [
 				{
 					id: 1,
@@ -76,7 +76,7 @@ const infos=
 			title: 'Keep projects on schedule',
 			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 			img: 'src/images/features-03-image-02.png',
-			img_left:false,
+			img_left: false,
 			points: [
 				{
 					id: 1,
@@ -98,7 +98,7 @@ const infos=
 			title: 'Keep projects on schedule',
 			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 			img: 'src/images/features-03-image-03.png',
-			img_left:true,
+			img_left: true,
 			points: [
 				{
 					id: 1,
@@ -114,24 +114,59 @@ const infos=
 				},
 			],
 		},
-		
+
 	],
+	testimonials_title: "Don't take our word for it",
+	testimonials_desc: "Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.",
+	testimonials_list: [
+		{
+			id: 1,
+			text: '— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I\'ve had Open PRO for about 24 hours now and I honestly don\'t know how I functioned without it before.',
+			author: 'Anastasia Dan',
+			occupation: 'UX Board',
+			img: 'src/images/testimonial-01.jpg',
+		},
+		{
+			id: 2,
+			text: '— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I\'ve had Open PRO for about 24 hours now and I honestly don\'t know how I functioned without it before.',
+			author: 'Anastasia Dan',
+			occupation: 'UX Board',
+			img: 'src/images/testimonial-02.jpg',
+		},
+		{
+			id: 3,
+			text: '— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I\'ve had Open PRO for about 24 hours now and I honestly don\'t know how I functioned without it before.',
+			author: 'Anastasia Dan',
+			occupation: 'UX Board',
+			img: 'src/images/testimonial-03.jpg',
+		},
+	],
+	newsletter_title: "Stay in the loop",
+	newsletter_desc: "Join our newsletter to get top news before anyone else.",
+	newsletter_input: "Your best email...",
+	newsletter_btn: "Subscribe",
+	
+	footer_text: "Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.",
+	
+	footer_Products: "Products",
+	footer_web_studio: "Web Studio",
+	footer_dynamicBox_flex: "DynamicBox Flex",
+	footer_programming_forms: "Programming Forms",
+	
+	footer_resources: "Resources",
+	footer_nostrud_exercitation: "Nostrud exercitation",
+	footer_visual_mockups: "Visual mockups",
+	
+	footer_company: "Company",
+	footer_consectetur_adipiscing: "Consectetur adipiscing",
+	footer_labore_et_dolore: "Labore et dolore",
+	footer_copy: "Cruip.com. All rights reserved.",
 	show_cv: true,
 	contacts: [
 		{
 			id: 1,
 			name: 'Annaba, Algeria',
 			icon: 'map-pin',
-		},
-		{
-			id: 2,
-			name: 'Boudjema.Mustafa.big@gmail.com',
-			icon: 'mail',
-		},
-		{
-			id: 3,
-			name: '+213 793 692 2 89',
-			icon: 'phone',
 		},
 	],
 }
