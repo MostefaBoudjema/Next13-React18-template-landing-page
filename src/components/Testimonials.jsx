@@ -24,6 +24,8 @@ function Testimonials() {
                             <div
                                 className="flex flex-col h-full p-6 bg-gray-800"
                                 data-aos="fade-up"
+                                data-aos-delay={item.id * 400}
+                                key={item.id}
                             >
                                 <div>
                                     <div className="relative inline-flex flex-col mb-4">
