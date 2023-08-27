@@ -9,7 +9,7 @@ const infos=
 	hero_btn_left: 'Start free trial',
 	hero_btn_right: 'Learn more',
 	hero_modal: 'Your browser does not support the video tag.',
-	hero_img: './src/images/hero-image-01.jpg',
+	hero_img: '/images/hero-image-01.jpg',
 	feature_title: 'The majority our customers do not understand their workflows.',
 	feature_desc: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 	feature_list: [
@@ -53,7 +53,7 @@ const infos=
 			span: 'More speed. Less spend',
 			title: 'Keep projects on schedule',
 			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-			img: './src/images/features-03-image-01.png',
+			img: '/images/features-03-image-01.png',
 			img_left: true,
 			points: [
 				{
@@ -75,7 +75,7 @@ const infos=
 			span: 'More speed. Less spend',
 			title: 'Keep projects on schedule',
 			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-			img: './src/images/features-03-image-02.png',
+			img: '/images/features-03-image-02.png',
 			img_left: false,
 			points: [
 				{
@@ -97,7 +97,7 @@ const infos=
 			span: 'More speed. Less spend',
 			title: 'Keep projects on schedule',
 			desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-			img: './src/images/features-03-image-03.png',
+			img: '/images/features-03-image-03.png',
 			img_left: true,
 			points: [
 				{
@@ -124,21 +124,21 @@ const infos=
 			text: '— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I\'ve had Open PRO for about 24 hours now and I honestly don\'t know how I functioned without it before.',
 			author: 'Anastasia Dan',
 			occupation: 'UX Board',
-			img: './src/images/testimonial-01.jpg',
+			img: '/images/testimonial-01.jpg',
 		},
 		{
 			id: 2,
 			text: '— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I\'ve had Open PRO for about 24 hours now and I honestly don\'t know how I functioned without it before.',
 			author: 'Anastasia Dan',
 			occupation: 'UX Board',
-			img: './src/images/testimonial-02.jpg',
+			img: '/images/testimonial-02.jpg',
 		},
 		{
 			id: 3,
 			text: '— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I\'ve had Open PRO for about 24 hours now and I honestly don\'t know how I functioned without it before.',
 			author: 'Anastasia Dan',
 			occupation: 'UX Board',
-			img: './src/images/testimonial-03.jpg',
+			img: '/images/testimonial-03.jpg',
 		},
 	],
 	newsletter_title: "Stay in the loop",
@@ -167,7 +167,7 @@ const infos=
 	about_span: 'Whu Choose Us?',
 	about_title: 'About Us',
 	about_desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-	about_img: './src/images/hero-image-01.jpg',
+	about_img: '/images/hero-image-01.jpg',
 	about_img_left: true,
 	about_points: [
 		{
