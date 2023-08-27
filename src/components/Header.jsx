@@ -30,10 +30,12 @@ function Header() {
         return (
             <>
                 <NavLink to="/">Home</NavLink>
-                <NavLink to="/hero">Hero</NavLink>
+                <NavLink to="/about">About</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
+                {/* <NavLink to="/hero">Hero</NavLink>
                 <NavLink to="/newsletter">Newsletter</NavLink>
                 <NavLink to="/testimonials">Testimonials</NavLink>
-                <NavLink to="/zigzag">Zigzag</NavLink>
+                <NavLink to="/zigzag">Zigzag</NavLink> */}
                 <NavLink to="/signin">Sign in</NavLink>
             </>
         );

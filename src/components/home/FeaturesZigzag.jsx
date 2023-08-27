@@ -1,5 +1,5 @@
 import React from 'react';
-import infos from '../data/infos'
+import infos from '../../data/infos'
 function FeaturesZigzag() {
   return (
     <section>

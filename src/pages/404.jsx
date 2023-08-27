@@ -1,16 +1,12 @@
 import React from 'react';
-
+import {
+    Routes,
+    Route    
+  } from 'react-router-dom';
 import Header from '../components/Header';
 import PageIllustration from '../components/PageIllustration';
-import HeroHome from '../components/home/HeroHome';
-import FeaturesBlocks from '../components/home/FeaturesBlocks';
-import FeaturesZigZag from '../components/home/FeaturesZigzag';
-import Testimonials from '../components/home/Testimonials';
-import Newsletter from '../components/home/Newsletter';
-//import Banner from '../components/Banner';
-import Footer from '../components/Footer';
 
-function Home() {
+function NotFound() {
     return (
         <div className="flex flex-col min-h-screen overflow-hidden">
             {/*  Site header */}
@@ -25,21 +21,20 @@ function Home() {
                 >
                     <PageIllustration />
                 </div>
-
+404 not found
                 {/*  Page sections */}
-                <HeroHome />
-                <FeaturesBlocks />
-                <FeaturesZigZag />
-                <Testimonials />
-                <Newsletter />
+                <Routes>
+                    {/* <Route path="/testimonials" element={<Testimonials />} />
+                    <Route path="/newsletter" element={<><div className="m-20"></div><Newsletter /></>} />
+                    <Route path="/hero" element={<HeroHome />} />
+                    <Route path="/zigzag" element={<FeaturesZigzag />} /> */}
+                </Routes>
             </main>
 
-            {/*  {/* <Banner /> */}
-
             {/*  Site footer */}
-            <Footer />
+            {/* <Footer /> */}
         </div>
     );
 }
 
-export default Home;
+export default NotFound;

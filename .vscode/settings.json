@@ -1,16 +1,8 @@
 {
     "typescript.tsdk": "node_modules/typescript/lib",
     "workbench.colorCustomizations": {
-        // "tab.activeBackground": "#FF0000",
-        // "tab.inactiveBackground": "#00FF00",
-        // "tab.activeForeground": "#FFFFFF",
-        // "tab.inactiveForeground": "#000000",
-
         "titleBar.activeForeground": "#fff",
         "titleBar.activeBackground": "#1c83c8"
-
-        // "sideBar.background": "#2e3831",
-        // "sideBar.foreground": "#adfbc7"
     },
     "typescript.enablePromptUseWorkspaceTsdk": true
 }
