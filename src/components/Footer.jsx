@@ -135,7 +135,7 @@ function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy;{infos.footer_copy}</div>
+            <div className="text-gray-400 text-sm mr-4">&copy;{infos.website_name}{infos.footer_copy}</div>
 
           </div>
 

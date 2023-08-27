@@ -6,10 +6,11 @@ import {
 import Header from '../components/Header';
 import PageIllustration from '../components/PageIllustration';
 // import Footer from '../components/Footer';
-// import Testimonials from '../components/Testimonials';
-// import Newsletter from '../components/Newsletter';
-// import HeroHome from '../components/HeroHome';
-// import FeaturesZigzag from '../components/FeaturesZigzag';
+import Testimonials from '../components/home/Testimonials';
+import Newsletter from '../components/home/Newsletter';
+import HeroHome from '../components/home/HeroHome';
+import FeaturesZigzag from '../components/home/FeaturesZigzag';
+import FeaturesBlocks from '../components/home/FeaturesBlocks';
 import NotFound from './404';
 
 function Others() {
@@ -30,10 +31,11 @@ function Others() {
 
                 {/*  Page sections */}
                 <Routes>
-                    {/* <Route path="/testimonials" element={<Testimonials />} />
+                    <Route path="/testimonials" element={<Testimonials />} />
                     <Route path="/newsletter" element={<><div className="m-20"></div><Newsletter /></>} />
                     <Route path="/hero" element={<HeroHome />} />
-                <Route path="/zigzag" element={<FeaturesZigzag />} /> */}
+                <Route path="/zigzag" element={<FeaturesZigzag />} />
+                <Route path="/blocks" element={<FeaturesBlocks />} />
                 <Route path="/*" element={<NotFound />} />
                 </Routes>
             </main>

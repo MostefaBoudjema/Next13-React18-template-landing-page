@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-    Routes,
-    Route    
-  } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PageIllustration from '../components/PageIllustration';
@@ -24,13 +21,7 @@ function About() {
                     <PageIllustration />
                 </div>
                 <About_comp />
-                {/*  Page sections */}
-                <Routes>
-                    <Route path="/about" element={<About_comp />} />
-                    {/* <Route path="/testimonials" element={<Testimonials />} />
-                    <Route path="/newsletter" element={<><div className="m-20"></div><Newsletter /></>} />
-                    <Route path="/zigzag" element={<FeaturesZigzag />} /> */}
-                </Routes>
+                <div className="py-6 md:py-10 "></div>
             </main>
 
             {/*  Site footer */}

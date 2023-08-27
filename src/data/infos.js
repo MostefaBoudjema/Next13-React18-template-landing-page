@@ -160,11 +160,11 @@ const infos=
 	footer_company: "Company",
 	footer_consectetur_adipiscing: "Consectetur adipiscing",
 	footer_labore_et_dolore: "Labore et dolore",
-	footer_copy: "Cruip.com. All rights reserved.",
+	footer_copy: " All rights reserved.",
 
 
 
-	about_span: 'Whu Choose Us?',
+	about_span: 'Why Choose Us?',
 	about_title: 'About Us',
 	about_desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 	about_img: '/images/hero-image-01.jpg',
@@ -185,6 +185,7 @@ const infos=
 	],
 
 	show_cv: true,
+	website_name: "Cruip.com",
 	contacts: [
 		{
 			id: 1,

@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-
+import show_modules from '../data/config';
 // import Dropdown from '../utils/Dropdown';
 
 function Header() {
@@ -29,14 +29,29 @@ function Header() {
     function NavLinkLists() {
         return (
             <>
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/about">About</NavLink>
-                <NavLink to="/contact">Contact</NavLink>
-                {/* <NavLink to="/hero">Hero</NavLink>
-                <NavLink to="/newsletter">Newsletter</NavLink>
-                <NavLink to="/testimonials">Testimonials</NavLink>
-                <NavLink to="/zigzag">Zigzag</NavLink> */}
-                <NavLink to="/signin">Sign in</NavLink>
+                {show_modules.show_home && <NavLink to="/">Home</NavLink>}
+                {show_modules.show_about && (
+                    <NavLink to="/about">About</NavLink>
+                )}
+                {show_modules.show_contact && (
+                    <NavLink to="/contact">Contact</NavLink>
+                )}
+                {show_modules.show_hero && <NavLink to="/hero">Hero</NavLink>}
+                {show_modules.show_newsletter && (
+                    <NavLink to="/newsletter">Newsletter</NavLink>
+                )}
+                {show_modules.show_testimonials && (
+                    <NavLink to="/testimonials">Testimonials</NavLink>
+                )}
+                {show_modules.show_zigzag && (
+                    <NavLink to="/zigzag">Zigzag</NavLink>
+                )}
+                {show_modules.show_blocks && (
+                    <NavLink to="/blocks">Blocks</NavLink>
+                )}
+                {show_modules.show_sign && (
+                    <NavLink to="/signin">Sign in</NavLink>
+                )}
             </>
         );
     }
@@ -90,12 +105,14 @@ function Header() {
                         <ul className="flex grow justify-end flex-wrap items-center">
                             <NavLinkLists />
                             <li>
-                                <Link
-                                    to="/signup"
-                                    className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3"
-                                >
-                                    Sign up
-                                </Link>
+                                {show_modules.show_sign && (
+                                    <Link
+                                        to="/signup"
+                                        className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3"
+                                    >
+                                        Sign up
+                                    </Link>
+                                )}
                             </li>
                         </ul>
                     </nav>
@@ -140,12 +157,14 @@ function Header() {
                             <ul className="bg-gray-800 px-4 py-2">
                                 <NavLinkLists />
                                 <li>
-                                    <Link
-                                        to="/signup"
-                                        className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
-                                    >
-                                        Sign up
-                                    </Link>
+                                    {show_modules.show_sign && (
+                                        <Link
+                                            to="/signup"
+                                            className="font-medium w-full inline-flex items-center justify-center border border-transparent px-4 py-2 my-2 rounded-sm text-white bg-purple-600 hover:bg-purple-700 transition duration-150 ease-in-out"
+                                        >
+                                            Sign up
+                                        </Link>
+                                    )}
                                 </li>
                             </ul>
                         </nav>

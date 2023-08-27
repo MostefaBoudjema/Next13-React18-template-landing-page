@@ -8,8 +8,8 @@ function About_comp() {
         <section>
             <div className="max-w-6xl mx-auto px-4 sm:px-6">
                 <div className="py-12 md:py-20 border-t border-gray-800"></div>
+                
                 <div className="grid gap-20">
-                    {/* 1st item */}
                     <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
                         {/* Image */}
                         <div
@@ -23,7 +23,7 @@ function About_comp() {
                                 src={infos.about_img}
                                 width={540}
                                 height={405}
-                                alt="Features 01"
+                                alt={infos.about_title}
                             />
                         </div>
                         {/* Content */}

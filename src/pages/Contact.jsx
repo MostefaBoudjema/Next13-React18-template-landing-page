@@ -5,6 +5,7 @@ import {
   } from 'react-router-dom';
 import Header from '../components/Header';
 import PageIllustration from '../components/PageIllustration';
+import Contact_form from '../components/contact/contact_form';
 
 function Contact() {
     return (
@@ -21,14 +22,7 @@ function Contact() {
                 >
                     <PageIllustration />
                 </div>
-                Contact
-                {/*  Page sections */}
-                <Routes>
-                    {/* <Route path="/testimonials" element={<Testimonials />} />
-                    <Route path="/newsletter" element={<><div className="m-20"></div><Newsletter /></>} />
-                    <Route path="/hero" element={<HeroHome />} />
-                    <Route path="/zigzag" element={<FeaturesZigzag />} /> */}
-                </Routes>
+                <Contact_form />
             </main>
 
             {/*  Site footer */}
