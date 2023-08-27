@@ -1,14 +1,14 @@
 import React from 'react';
 
-import Header from '../components/Header';
-import PageIllustration from '../components/PageIllustration';
+import Header from '../components/shared/Header';
+import PageIllustration from '../components/shared/PageIllustration';
 import HeroHome from '../components/home/HeroHome';
 import FeaturesBlocks from '../components/home/FeaturesBlocks';
 import FeaturesZigZag from '../components/home/FeaturesZigzag';
 import Testimonials from '../components/home/Testimonials';
 import Newsletter from '../components/home/Newsletter';
 //import Banner from '../components/Banner';
-import Footer from '../components/Footer';
+import Footer from '../components/shared/Footer';
 
 function Home() {
     return (

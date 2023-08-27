@@ -183,6 +183,19 @@ const infos=
 			text: 'Amet consectetur adipiscing elit',
 		},
 	],
+
+	contact_title: "Contact Form",
+	contact_first_name: "First Name",
+	contact_please_fill: "Please fill out this field.",
+	contact_lastname: "Last Name",
+	contact_password: "Password",
+	contact_make_it: "Make it as long and as crazy as you'd like",
+	contact_us: "Contact Us",
+	contact_city: "City",
+	contact_state: "State",
+	contact_zip: "Zip",
+
+
 	signin_title: "Welcome back. We exist to make entrepreneurship easier.",
 	signin_btn: "Sign in with Google",
 	signin_head: "Or, sign in with your email",
@@ -215,7 +228,8 @@ const infos=
 	
 	signin: "Sign in",
 	signup: "Sign up",
-	show_cv: true,
+	page_not_found: "Page Not Found",
+	page_not_found_back: "Take me back to safety!",
 	website_name: "Cruip.com",
 	contacts: [
 		{

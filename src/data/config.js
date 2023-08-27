@@ -1,8 +1,9 @@
-const show_modules=
+const config=
 {
 	show_home: true,
 	show_about: true,
 	show_contact: true,
+	show_service: true,
 	show_sign: true,
 	show_hero: false,
 	show_zigzag: false,
@@ -11,4 +12,4 @@ const show_modules=
 	show_newsletter: false,
 }
 
-export default show_modules;
+export default config;

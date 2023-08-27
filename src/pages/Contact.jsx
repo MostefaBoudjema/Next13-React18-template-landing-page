@@ -3,8 +3,8 @@ import {
     Routes,
     Route    
   } from 'react-router-dom';
-import Header from '../components/Header';
-import PageIllustration from '../components/PageIllustration';
+import Header from '../components/shared/Header';
+import PageIllustration from '../components/shared/PageIllustration';
 import Contact_form from '../components/contact/contact_form';
 
 function Contact() {

@@ -4,8 +4,9 @@ import Header from '../components/shared/Header';
 import Footer from '../components/shared/Footer';
 import PageIllustration from '../components/shared/PageIllustration';
 import About_comp from '../components/about/about_comp';
+import FeaturesBlocks from '../components/home/FeaturesBlocks';
 
-function About() {
+function Service() {
     return (
         <div className="flex flex-col min-h-screen overflow-hidden">
             {/*  Site header */}
@@ -20,8 +21,8 @@ function About() {
                 >
                     <PageIllustration />
                 </div>
-                <About_comp />
                 <div className="py-6 md:py-10 "></div>
+                <FeaturesBlocks />
             </main>
 
             {/*  Site footer */}
@@ -30,4 +31,4 @@ function About() {
     );
 }
 
-export default About;
+export default Service;
