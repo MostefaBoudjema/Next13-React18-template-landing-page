@@ -31,7 +31,7 @@ function Header() {
             <>
                 {show_modules.show_home && <NavLink to="/">Home</NavLink>}
                 {show_modules.show_about && (
-                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/about">About Us</NavLink>
                 )}
                 {show_modules.show_contact && (
                     <NavLink to="/contact">Contact</NavLink>
