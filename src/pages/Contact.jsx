@@ -6,6 +6,7 @@ import {
 import Header from '../components/shared/Header';
 import PageIllustration from '../components/shared/PageIllustration';
 import Contact_form from '../components/contact/contact_form';
+import Footer from '../components/shared/Footer'
 
 function Contact() {
     return (
@@ -26,7 +27,7 @@ function Contact() {
             </main>
 
             {/*  Site footer */}
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 }

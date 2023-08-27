@@ -24,7 +24,7 @@ function Testimonials() {
                             <div
                                 className="flex flex-col h-full p-6 bg-gray-800"
                                 data-aos="fade-up"
-                                data-aos-delay={item.id * 400}
+                                data-aos-delay={item.id * 200}
                                 key={item.id}
                             >
                                 <div>
@@ -51,8 +51,8 @@ function Testimonials() {
                                 <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                                     <cite className="text-gray-200 not-italic">
                                         {item.author}
-                                    </cite>{' '}
-                                    -{' '}
+                                    </cite>
+                                    -
                                     <a
                                         className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                                         href="#0"

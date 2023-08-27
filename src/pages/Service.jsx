@@ -1,9 +1,7 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
 import Header from '../components/shared/Header';
 import Footer from '../components/shared/Footer';
 import PageIllustration from '../components/shared/PageIllustration';
-import About_comp from '../components/about/about_comp';
 import FeaturesBlocks from '../components/home/FeaturesBlocks';
 
 function Service() {

@@ -74,7 +74,7 @@ function SignUp() {
                                                 className="block text-gray-300 text-sm font-medium mb-1"
                                                 htmlFor="full-name"
                                             >
-                                                {infos.signup_fullname}{' '}
+                                                {infos.signup_fullname}
                                                 <span className="text-red-600">
                                                     *
                                                 </span>
@@ -96,7 +96,7 @@ function SignUp() {
                                                 className="block text-gray-300 text-sm font-medium mb-1"
                                                 htmlFor="company-name"
                                             >
-                                                {infos.signup_companyname}{' '}
+                                                {infos.signup_companyname}
                                                 <span className="text-red-600">
                                                     *
                                                 </span>
@@ -118,7 +118,7 @@ function SignUp() {
                                                 className="block text-gray-300 text-sm font-medium mb-1"
                                                 htmlFor="email"
                                             >
-                                                {infos.signup_workemail}{' '}
+                                                {infos.signup_workemail}
                                                 <span className="text-red-600">
                                                     *
                                                 </span>
@@ -140,7 +140,7 @@ function SignUp() {
                                                 className="block text-gray-300 text-sm font-medium mb-1"
                                                 htmlFor="password"
                                             >
-                                                {infos.signup_password}{' '}
+                                                {infos.signup_password}
                                                 <span className="text-red-600">
                                                     *
                                                 </span>
@@ -157,7 +157,7 @@ function SignUp() {
                                         </div>
                                     </div>
                                     <div className="text-sm text-gray-500 text-center">
-                                        {infos.signup_agree}{' '}
+                                        {infos.signup_agree}
                                         <Link
                                             to="#"
                                             className="underline text-gray-400 hover:text-gray-200 hover:no-underline transition duration-150 ease-in-out"

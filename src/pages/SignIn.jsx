@@ -136,7 +136,7 @@ function SignIn() {
                                     </div>
                                 </form>
                                 <div className="text-gray-400 text-center mt-6">
-                                    {infos.signin_account}{' '}
+                                    {infos.signin_account}
                                     <Link
                                         to="/signup"
                                         className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
