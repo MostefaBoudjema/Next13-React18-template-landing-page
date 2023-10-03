@@ -128,14 +128,14 @@ const infos=
 		},
 		{
 			id: 2,
-			text: '— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I\'ve had Open PRO for about 24 hours now and I honestly don\'t know how I functioned without it before.',
+			text: '— Open PRO2 lets me quickly get the insights I care about so that I can focus on my productive work. I\'ve had Open PRO for about 24 hours now and I honestly don\'t know how I functioned without it before.',
 			author: 'Anastasia Dan',
 			occupation: 'UX Board',
 			img: '/images/testimonial-02.jpg',
 		},
 		{
 			id: 3,
-			text: '— Open PRO lets me quickly get the insights I care about so that I can focus on my productive work. I\'ve had Open PRO for about 24 hours now and I honestly don\'t know how I functioned without it before.',
+			text: '— Open PRO3 lets me quickly get the insights I care about so that I can focus on my productive work. I\'ve had Open PRO for about 24 hours now and I honestly don\'t know how I functioned without it before.',
 			author: 'Anastasia Dan',
 			occupation: 'UX Board',
 			img: '/images/testimonial-03.jpg',
